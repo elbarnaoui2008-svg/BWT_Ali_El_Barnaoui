@@ -6,3 +6,8 @@ def bwt(S):
     for i in range(len(S) + 1):
         s = S[i:] + "$" + S[:i]
         lista.append(s)
+
+        lista.sort()
+        S_finale = ""
+
+        
