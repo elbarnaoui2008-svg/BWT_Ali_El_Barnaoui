@@ -14,3 +14,6 @@ def bwt(S):
             S_finale = S_finale + (lista[i][-1])
 
         return S_finale
+
+    S_finale = bwt(S)
+    print(S_finale)
